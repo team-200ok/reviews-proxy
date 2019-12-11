@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YumNoms</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id='header'>
+        <img id='banner' src='Header.png' />
+    </div>
+    <div id='photos'></div>
+    <div id='body'>
+      <div id='info'>
+        <img id='restaurant-name' src='RestaurantTitle.png' />
+        <div id='populardishes'></div>
+        <div id='reviews'></div>
+      </div>
+      <div id='rightbar'>
+        <div id='sticky'>
+          <div id='reservations'></div>
+          <img id='subRes' src='subReservations.png' />
+        </div>
+      </div>
+    </div>
+    <script name='reservations' src='https://yumnoms-reservation-bundle.s3-us-west-1.amazonaws.com/bundle.js'></script>
+    <script name='reviews' src='https://yumnoms.s3-us-west-1.amazonaws.com/bundle.js'></script>
+    <script name='popular-dishes' src='https://yelp-popular-dishes.s3-us-west-1.amazonaws.com/bundle.js'></script>
+    <script name='photos' src='https://gpksingh.s3.us-east-2.amazonaws.com/bundle.js'></script>
+  </body>
+</html>

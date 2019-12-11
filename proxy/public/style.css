@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    margin: 0;
+    width: 100vw;
+    height: auto;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#photos {
+  margin: 0 0 36px 0;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 36px 0 0;
+}
+
+#restaurant-name {
+  width: 605px;
+  height: auto;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#populardishes {
+  width: 605px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#rightbar {
+    position: sticky;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#sticky {
+    position: sticky;
+    right: 0;
+    top: 36px;
+}
+
+#subRes {
+    width: 345px;
+    margin-top: 15px;
+    position: sticky;
+    right: 0;
+    top: 0;
+}

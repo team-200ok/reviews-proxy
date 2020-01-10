@@ -1,9 +1,7 @@
+require('newrelic');
 const express = require('express');
 const path = require('path');
-const http = require('http');
-// const rp = require('request-promise');
-// const proxy = require('http-proxy-middleware');
-// const bodyParser = require('body-parser');   
+const proxy = require('http-proxy-middleware');
 const app = express();
 const port = 3000;
 
